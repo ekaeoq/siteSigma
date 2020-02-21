@@ -1,0 +1,90 @@
+body{
+  margin: 0vh;
+  margin-top: 0vh;
+  background-color: black;
+}
+
+#title{
+  position: relative;
+  top: 10vh;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  /*font-family: 'Press Start 2P', cursive;  --pixel text*/
+  font-family: 'Michroma', sans-serif;
+}
+
+.characters{
+  position: relative;
+  top: 15vh;
+  background-color: white; 
+  /*left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 300px;*/ /* Need a specific value to work */
+  
+}
+.pixels{
+  background-color: black;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pixelsBackground{
+  height: 70%;
+  width: 70%;
+}
+
+.charImages{
+  position: absolute;
+  text-align: center;
+  top: 15vh;
+  left: 0;
+  right: 0;
+}
+
+
+
+#viktorChar{
+   /*image mirror*/ 
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+/* NAVIGATION BAR*/
+ul{
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 19, 19);
+  list-style-type: none;
+  bottom: 0;
+}
+
+li{
+  padding-left: 3vh;
+  padding-right: 3vh;
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+#commentSection{
+  float: right;
+}
+
+

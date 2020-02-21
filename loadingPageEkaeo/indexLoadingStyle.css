@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+#pixelsGifContainer{
+    background-color: black;
+    position: relative;
+    top: 10vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+#pixelsGif{
+    height: 70%;
+    width: 70%;
+}
