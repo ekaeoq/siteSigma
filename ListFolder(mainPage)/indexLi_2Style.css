@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+   text-align: center; 
+}
+
+ol {
+    background: rgb(25,25,25);
+    padding: 20px;
+  }
+  
+  ul {
+    background: rgb(25, 25,25);
+    padding: 20px;
+  }
+  
+  ol li {
+    height: 5vh;
+    background: gray;
+    padding: 5px;
+    margin-left: 35px;
+    color: black;
+  }
+  
+  ul li {
+    height: 5vh;
+    background: gray;
+    margin: 5px;
+    color: black;
+  }
