@@ -31,3 +31,29 @@ ol {
     margin: 5px;
     color: black;
   }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    background-color: grey;
+  }
+
+  #lul {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* #yeh, #yho {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+  div{
+    height: 5vh
+    ;
+  } */

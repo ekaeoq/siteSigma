@@ -1,7 +1,6 @@
 body{
     background-color: black;
     margin: 0;
-    padding: 0;
 }
 
 p{
@@ -10,28 +9,21 @@ p{
 
 #top-bar{
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
 }
 
-#buttonleft{
-    flex: 1;
-    flex-basis: 20%;
-    padding: 10px;
-    background-color: gray;
+.klik{
+    min-width: 200px;
 }
 
-#buttonmiddle{
-    flex: 1;
-    flex-basis: 20%;
-    justify-content:flex-end;
+.lijevi{
+    font-family: 'Space mono', monospace;
 }
 
-#buttonright{
-    flex: 1;
-    flex-basis: 20%;
-    
-    align-self: center;
-    text-align: right;
-    background-color: gray;
+.uSredini{
+    font-family: 'Space mono', monospace;
 }
 
+.desni{
+    font-family: 'Space mono', monospace;
+}
